@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(find:*)",
-      "WebFetch(domain:www.littleexplorersbigworld.com)"
+      "WebFetch(domain:www.littleexplorersbigworld.com)",
+      "Bash(git push:*)",
+      "Bash(gh pr create:*)"
     ],
     "deny": []
   }
